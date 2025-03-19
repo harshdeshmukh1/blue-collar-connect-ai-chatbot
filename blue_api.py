@@ -15,7 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
 # 🔹 Set up Google Gemini API Key
-genai.configure(api_key="AIzaSyDXdLF8oBzKRJdBWwjM6GHTpOWMmVe5hvk")  # Replace with your actual API key
+genai.configure(api_key="")
 
 # ✅ Custom LLM Wrapper for Google Gemini
 class GeminiLLM(LLM):
